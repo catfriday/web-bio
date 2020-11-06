@@ -10,6 +10,18 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header img.profile-img {
+  max-width: 240px;
+  border-radius: 50%;
+  border: 0.4em solid rgba(255, 255, 255, 0.75);
+}
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
