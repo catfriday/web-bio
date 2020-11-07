@@ -5503,7 +5503,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.75rem;
+  /* border-radius: 0.75rem; */
   outline: 0;
 }
 
@@ -10199,20 +10199,56 @@ h3 {
   display: block;
   max-width: 25rem;
   /* border-radius: 0.5rem; */
+  border: solid 1px black;
   overflow: hidden;
+  text-align: center;
+  /* background-color: black; */
 }
+
+.portfolio .portfolio-item2 {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  /* border-radius: 0.5rem; */
+  border: solid 1px black;
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+}
+
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.9s ease-in-out;
-  opacity: 0.5;
+  transition: all 0.7s ease-in-out;
+  opacity: 0.0;
   background-color: rgb(255, 116, 139);
 }
+
+.portfolio .portfolio-item2 .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.7s ease-in-out;
+  opacity: 0.0;
+  background-color: rgb(255, 116, 139);
+}
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
+
+.portfolio .portfolio-item2 .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 3rem;
+}
+
+.portfolio .portfolio-item2 .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 3rem;
 }
 
