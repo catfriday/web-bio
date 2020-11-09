@@ -11,6 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .tech{
+   text-align: center;
+ }
+
  header img {
   display: block;
   margin: 0 auto 20px;
@@ -405,6 +409,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  /* text-align: center; */
 }
 
 .display-1 {
@@ -6122,9 +6127,15 @@ a.close.disabled {
 }
 
 .bg-primary {
-  /* background-color: black !important; */
-  background-image: url('Keyboard Backgraound.png');
+  background-color: black !important;
+  /* background-image: url('Keyboard Backgraound.png'); */
 }
+
+.bg-primary2 {
+    /* background-color: black !important; */
+    background-image: url('Robert Frot.png');
+  }
+  
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10170,7 +10181,9 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  /* color: rgb(255, 116, 139); */
   /* font-family: bodoni flf; */
+  /* -webkit-text-stroke: 1px black; */
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
