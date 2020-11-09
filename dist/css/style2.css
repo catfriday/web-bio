@@ -10,7 +10,30 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.contact{
+  position: absolute;
+justify-content: center;
+}
 
+  .email-link {
+  color: rgb(255, 116, 139);
+  background-color: transparent;
+  border: 1px solid rgb(255, 116, 139);
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.email-link:hover{
+  background-color: rgb(255, 116, 139);
+  color:black;
+}
 
 
 .git{
@@ -33,9 +56,9 @@
 }
 
 header img.profile-img {
-  max-width: 300px;
+  max-width: 400px;
   /* border-radius: 50%; */
-  border: 0.3em solid #ff748b;
+  border: 0.5em solid #ff748b;
 }
  
 :root {
