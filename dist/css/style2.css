@@ -19,7 +19,7 @@
 header img.profile-img {
   max-width: 300px;
   /* border-radius: 50%; */
-  border: 0.3em solid rgb(255, 116, 139);
+  border: 0.3em solid #ff748b;
 }
  
 :root {
@@ -6122,7 +6122,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: black !important;
+  /* background-color: black !important; */
+  background-image: url('Keyboard Backgraound.png');
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
